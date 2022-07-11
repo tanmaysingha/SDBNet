@@ -71,4 +71,4 @@ This is an anonymous link given by the Cityscapes server. Upon the acceptance of
 
 ### KITTI test set results
 Like Cityscapes, KITTI test set result is also sumbitted to the evaluation server. Click the following link to see the result:
-https://github.com/tanmaysingha/SDBNet/blob/main/Images/KITTI_Vision_Benchmark%20Suite_Results.pdf
+https://github.com/tanmaysingha/SDBNet/blob/main/supplementary/KITTI_Vision_Benchmark%20Suite_Results.pdf
