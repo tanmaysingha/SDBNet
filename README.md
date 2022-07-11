@@ -47,7 +47,13 @@ TrainId | Camvid 11 classes  | Cityscapes classes
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
 
 ## Results
-We trained our model by the above mentioned benchmarks at different input resolutions. Cityscapes provides 1024 * 2048 px resolution images. We mainly focus full resolution of cityscapes images. For CamVid dataset, we use 640 * 896 px resolution altough original image size is 720 * 960 px. Similarly, we use 384 * 1280 px resolution input images for KITTI dataset although original size of input image is 375 * 1280 px. For Cityscapes and KITTI datasets, we use 19 classes, however for Camvid dataset we trained the model with 11 classes (suggested by the literature). 
+We trained our model by the above mentioned benchmarks at different input resolutions. For Cityscapes and KITTI datasets, we use 19 classes, however for Camvid dataset we trained the model with 11 classes (suggested by the literature). The following table exhibits the test results achieved by SDBNet.
+
+Dataset    | No. of classes  | Input Size  |  Test mIoU | No. of parameters | FLOPs   
+-----------|-----------------|-------------|------------|-------------------|--------
+Cityscapes |        19       | 1024 * 2048 |    70.8%   |    1.4 million    | 42.3 G
+KITTI      |        19       | 384 * 1280  |    51.8%   |    1.4 million    |  9.9 G
+Camvid     |        11       | 640 * 896   |    71.5%   |    1.4 million    | 11.6 G
 
 ### Cityscapes test results
 The output of the test set is submitted to Cityscapes evaluation server. To view the test set result evaluated by the server, click the following link: https://bit.ly/3PlwgdR
