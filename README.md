@@ -1,5 +1,5 @@
 # SDBNet: Short-term Dense Bottleneck Network for Real-time Semantic Segmentation 
-This is an official site for SDBNet model. Currently, the model predictions and supplimentary materials are uploaded. Upon the acceptance of the paper, this repository will be updated.
+This is an official site for SDBNet model. To refer this paper, visit the foloowing link: https://ieeexplore.ieee.org/abstract/document/10034634
 
 ## Datasets
 For this research work, we have used Cityscapes, KITTI and CamVid datasets.
@@ -78,3 +78,19 @@ This is an anonymous link given by the Cityscapes server. Upon the acceptance of
 ### KITTI test set results
 Like Cityscapes, KITTI test set result is also sumbitted to the evaluation server. Click the following link to see the result:
 https://github.com/tanmaysingha/SDBNet/blob/main/supplementary/KITTI_Vision_Benchmark%20Suite_Results.pdf
+
+### Citation
+ ```yaml
+cff-version: 1.2.0
+If this research work is useful for your research work, then please consider for citing the paper:
+@INPROCEEDINGS{10034634,
+  author={Singha, Tanmay and Pham, Duc-Son and Krishna, Aneesh},
+  booktitle={2022 International Conference on Digital Image Computing: Techniques and Applications (DICTA)}, 
+  title={SDBNet: Lightweight Real-time Semantic Segmentation Using Short-term Dense Bottleneck}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/DICTA56598.2022.10034634}}
+
+```
